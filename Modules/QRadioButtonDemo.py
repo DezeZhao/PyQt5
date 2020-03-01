@@ -3,6 +3,12 @@
 # @Software: PyCharm
 # @File    : QRadioButtonDemo.py
 # @Author  : DezeZhao
+"""
+单选按钮：
+signal：
+toggled # 状态切换
+
+"""
 import sys
 
 from PyQt5.QtGui import *
