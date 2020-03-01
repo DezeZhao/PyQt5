@@ -18,7 +18,7 @@ class QLineEditDemo(QWidget):
         # 使用int校验器
         e1.setValidator(QIntValidator())
         e1.setMaxLength(4)
-        e1.setAlignment(Qt.AlignRight)
+        e1.setAlignment(Qt.AlignLeft)
         e1.setFont(QFont('Courier New'))
 
         e2 = QLineEdit()
