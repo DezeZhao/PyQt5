@@ -29,6 +29,7 @@ class QComBoxDemo(QWidget):
         self.cb.addItems(['Java', 'C#', 'Go'])
 
         self.cb.currentIndexChanged.connect(self.selectionChanged)
+        layout.addWidget(self.label)
         layout.addWidget(self.cb)
 
         self.setLayout(layout)
