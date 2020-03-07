@@ -30,10 +30,10 @@ class QLabelDemo(QWidget):
         self.initUI()
 
     def initUI(self):
-        label1 = QLabel(self)
-        label2 = QLabel(self)
-        label3 = QLabel(self)
-        label4 = QLabel(self)
+        label1 = QLabel()
+        label2 = QLabel()
+        label3 = QLabel()
+        label4 = QLabel()
 
         label1.setText('这是一个文本标签')
         label1.setAutoFillBackground(True)
