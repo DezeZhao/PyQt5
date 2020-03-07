@@ -6,6 +6,8 @@
 
 """
 滑块控件QSlider
+
+signal：valueChanged
 """
 import sys
 
