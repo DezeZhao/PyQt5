@@ -21,6 +21,7 @@ class RightBottomBtn(QWidget):
         hbox.addStretch(1)
         hbox.addWidget(okbtn)
         hbox.addWidget(cancelbtn)
+        # hbox.addStretch(1) ## 此时两个按钮在中间
 
         vbox = QVBoxLayout()
         btn1 = QPushButton('按钮1')
