@@ -35,7 +35,7 @@ class QCheckBoxDemo(QWidget):
 
         self.box2 = QCheckBox('复选框2')
         self.box2.stateChanged.connect(lambda: self.ChecboxState(self.box2))
-        layout.addWidget(self.box2)
+        layout.addWidget(self.box2) #
 
         self.box3 = QCheckBox('半选中')
         self.box3.stateChanged.connect(lambda: self.ChecboxState(self.box3))
